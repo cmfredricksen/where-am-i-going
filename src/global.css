@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Edu+QLD+Beginner&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Cutive+Mono&family=Nunito&display=swap');
+
+:root {
+    --font-heading: "Arima", sans-serif;
+    --font-text: "Nunito", sans-serif;
+    --font-accent: "Cutive Mono", monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+}
+
+p {
+    font-family: var(--font-text);
+}
+
+a, li {
+    font-family: var(--font-accent);
+}
