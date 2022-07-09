@@ -5,24 +5,16 @@
         path: string;
     }[] = [
         {
-            title: "Home",
-            path: "/"
-        },
-        {
-            title: "About",
-            path: "/about"
+            title: "Boston",
+            path: "/places/boston"
         },
         {
             title: "Chicago",
-            path: "/chicago"
+            path: "/places/chicago"
         },
         {
             title: "Minneapolis",
-            path: "/minneapolis"
-        },
-        {
-            title: "Boston",
-            path: "/boston"
+            path: "/places/minneapolis"
         }
     ]
 </script>
@@ -36,6 +28,17 @@
 <style>
     .drop-down-menu {
         display: flex;
-        flex-direction: column;
+        align-items: flex-end;
+    }
+    a {
+        padding: 1rem 2rem;
+        background: #222;
+        border: 1px solid #aaa;
+        border-radius: .5rem;
+        text-decoration: none;
+    }
+    a:hover {
+        color: var(--clr-accent);
+        font-weight: bold;
     }
 </style>

@@ -1,4 +1,5 @@
 <script lang="ts">
+
     const links: {
         title: string;
         path: string
@@ -16,6 +17,7 @@
             path: "/places"
         }
     ]
+
 </script>
 
 <nav>
@@ -29,7 +31,14 @@
         display: flex;
         justify-content: space-between;
     }
+
     a {
         margin: 0 1rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--clr-accent);
+        font-weight: bold;
     }
 </style>

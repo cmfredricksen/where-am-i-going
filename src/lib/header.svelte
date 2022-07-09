@@ -17,6 +17,8 @@
         justify-content: space-between;
         align-items: baseline;
         padding: 1rem;
+        /* border-bottom: 2px solid var(--clr-white); */
+        box-shadow: 5px 5px 5px #000;
     }
 
     .header-title {

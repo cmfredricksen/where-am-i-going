@@ -12,10 +12,18 @@
 
 <Header />
 
-{#if $toggle}
-<DropDownMenu />
-{/if}
-<button on:click={() => toggle.set(!$toggle)}>&HorizontalLine;</button>
-<slot />
+<div class="wrapper">
+    {#if $toggle}
+    <DropDownMenu />
+    {/if}
+    <slot />
+</div>
 
 <Footer />
+
+<style>
+    .wrapper {
+        width: 70%;
+        margin: 1rem auto;
+    }
+</style>
